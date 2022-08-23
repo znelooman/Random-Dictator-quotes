@@ -106,6 +106,6 @@ button {
 
 @media(max-width:480px){
     .quotes p, .quotes h3{
-        font-size: 2rem;
+        font-size: 1rem;
     }
 }
