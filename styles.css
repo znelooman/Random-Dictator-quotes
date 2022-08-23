@@ -18,10 +18,13 @@ body{
 #quote{
 
     font-family: 'Cinzel', serif;
-    font-size: 60px;
+    font-size: 3.5vw;
     
 }
 
+#author{
+    font-size: 1.5vw;
+}
 
 
 
@@ -100,12 +103,11 @@ button {
     align-items: center;
 }
 
-.quotes p, .quotes h3{
-    font-size: 2rem;
-}
+
 
 @media(max-width:480px){
-    .quotes p, .quotes h3{
-        font-size: 1rem;
+    #img{
+        max-width: 100px;
+        max-height: 100px;
     }
 }
